@@ -1,0 +1,15 @@
+h1 {font-size: 24pt; text-align: center; color: orchid;}
+Body {background-color: black;}
+h2 {
+    height:600px;
+    width: 600px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    margin-top:-300px;   /*half the elements heighth*/ 
+    margin-left:-400px; 
+    z-index: 600;
+    }
+section.FirstSection {background-color: black; visibility: hidden; color: DeepSkyBlue; text-align: center;}
+section.SecondSection {background-color: black; visibility: hidden; color: crimson; text-align: center;}
+footer {color: orchid; visibility: visible; text-align:center; padding-top: 800px;}
